@@ -8,7 +8,22 @@
 
 // console.log(virtual);
 
+// import {a} from "./main.js";
 
-import {a} from "./main.js";
+// console.log(a);
 
-console.log(a);
+// practice 
+
+let rootelem = document.querySelector("#root");
+
+let div = React.createElement(
+  "div",
+  {},
+  React.createElement(
+    "h1",
+    {},
+    React.createElement("span", {}, "hey Im aastha"),
+  ),
+);
+
+ReactDOM.createRoot(rootelem).render(div);
