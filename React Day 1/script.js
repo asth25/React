@@ -1,2 +1,5 @@
+let root = document.querySelector("#root");
 
-console.log(React);
+const h1 = React.createElement("h2", {}, "this is from react");
+console.log(h1);
+ReactDOM.createRoot(root).render(h1);
