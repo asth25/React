@@ -1,3 +1,7 @@
+import React from "react";
+
+
+
 let root = document.querySelector("#root");
 
 const h1 = React.createElement("h2", {}, "this is from react");
