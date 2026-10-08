@@ -14,7 +14,9 @@ let App = () => {
       <div>
     <h1>helooww</h1>
     <h2>byeeee</h2>
-    <About />
+    {<About width="500" height="600">
+      <h1>uiuiuiuiui</h1>
+      </About>}
   </div>
   )
 };
