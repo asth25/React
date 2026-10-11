@@ -1,21 +1,20 @@
-import React from 'react'
-import Contact from './Contact'
-import Something, { two, one } from './test'
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Footer from './Footer';
+import React, { useState } from 'react'
 
 const App = () => {
-  two();
-  one()
 
+  let [count, setCount] = useState(0);
+  
+  console.log(count);
+  
   return (
-    <div style={{backgroundColor: 'lightblue'}}>
-      <Navbar/>
-      <Hero/>
-      <Footer/>
+    <div>
+      <h1>Count is {count}</h1>
+
+      <button onClick={() => {
+        setCount(count+1);
+      }}>Increment</button>
     </div>
   )
 }
 
-export default App
+export default App;
