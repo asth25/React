@@ -6,7 +6,7 @@ const App = () => {
       <h1 className=''>heelliiiooooooooooo</h1>
       <h2>aasthaaaaa</h2>
       <div>
-        {/* <h3>div ke andr div</h3> */}
+        <h3>div ke andr div</h3>
         <div>
           {/* <h4>or uske andr bhi ek div</h4> */}
         </div>
